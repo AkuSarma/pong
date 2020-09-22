@@ -23,7 +23,7 @@ paddle_a.penup()
 paddle_a.goto(-350, 0)
 
 
-# paddle B
+# bot paddle
 paddle_b = turtle.Turtle()
 paddle_b.speed(0)
 paddle_b.shape("square")
@@ -75,6 +75,7 @@ pen.write("Human : 0   Bot : 0", align="center",
           font=("courier", 24, "normal"))
 
 
+# bot
 def bot():
     if ball.xcor() > 0 and ball.dx == 8:
         paddle_b.goto(350, ball.ycor())
