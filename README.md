@@ -1,5 +1,5 @@
 # pong
-Its a simple pong game made using python-tkinter
+Its a simple pong game made using python-turtle
 
 - - -
 
